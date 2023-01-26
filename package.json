@@ -11,7 +11,7 @@
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
-    "@heroicons/react": "^2.0.14",
+    "@heroicons/react": "^1.0.6",
     "@mui/material": "^5.11.6",
     "@next/font": "13.1.5",
     "@types/node": "18.11.18",
@@ -21,6 +21,7 @@
     "next": "13.1.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-hook-form": "^7.42.1",
     "react-hot-toast": "^2.4.0",
     "react-icons": "^4.7.1",
     "react-player": "^2.11.0",
