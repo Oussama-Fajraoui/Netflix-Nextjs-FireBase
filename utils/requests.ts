@@ -1,4 +1,4 @@
-import { API_KEY } from "../constants/apiKey";
+import { API_KEY } from "../constants/apikey";
 
 const BASE_URL = "https://api.themoviedb.org/3";
 
