@@ -1,38 +1,132 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project : NextJS Netflix App
 
-## Getting Started
+NextJS Netflix App is a responsive web application where you can watch the trailer of the movie you want to see the information of after registering and logging in and you can create a watch list for yourself by pressing the + button.
 
-First, run the development server:
+## Table of contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+- [Project : NextJS Netflix App](#project--nextjs-netflix-app)
+  - [Table of contents](#table-of-contents)
+  - [The challenge](#the-challenge)
+  - [Project Skeleton](#project-skeleton)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+    - [Built with](#built-with)
+    - [Useful resources](#useful-resources)
+  - [Installation](#installation)
+  - [Author](#author)
+  - [Contact](#contact)
+  - [How to use](#how-to-use)
+
+## The challenge
+
+To create an advanced movie app with ReactJS, NextJS, TypeScript, Firebase, Firestore and TailwindCSS
+
+## Project Skeleton
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+|----README.md
+├── atoms
+│       └── modalAtom.ts
+├── components
+│       ├── Banner.tsx
+│       ├── BasicMenu.tsx
+│       ├── Footer.tsx
+│       ├── Header.tsx
+│       ├── Loader.tsx
+│       ├── Membership.tsx
+│       ├── Modal.tsx
+│       ├── Row.tsx
+│       └── Thumbnail.tsx
+├── constants
+│       ├── apiKey.ts
+│       └── movie.ts
+├── firebase
+│       └──  firebase.ts
+├── hooks
+│       ├── useAuth.tsx
+│       └── useList.js
+├── pages
+│       ├── api
+|       |     └── hello.js
+│       ├── _app.jsx
+│       ├── account.jsx
+│       ├── index.jsx
+│       └── login.jsx
+├── public
+│       ├── favicon.ico
+│       └── vercel.svg
+├── styles
+│       └── global.css
+├── utils
+│       └── requests.ts
+├── next.config.js
+├── .env
+├── package-lock.json
+├── package.json
+├── tailwind.config.js
+├── tsconfig.json
+└── typing.d.ts
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Links
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<hr>
+<b>Check The Live Website ➡️</b> <a href="https://netflix-nextjs-fire-base-2b8ugb0a1-oussama-fajraoui.vercel.app/login">Live Website</a>
+<hr>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Built with
 
-## Learn More
+- React Components, Props, States and Hooks
+- TypeScript
+- NextJS
+- API GET,POST,DELETE and UPDATE requests
+- Context API
+- React Recoil
+- React Player
+- React Hot Tost
+- React Hook Form
+- JSX Elements
+- TailwindCSS
+- Material UI
+- Firebase Auth
+- Firestore Database
 
-To learn more about Next.js, take a look at the following resources:
+### Useful resources
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [W3 Schools](https://www.w3schools.com/)
+- [MDN](https://developer.mozilla.org/en-US/)
+- [Firebase](https://firebase.google.com/)
+- [TMDB](https://www.themoviedb.org/)
+- [TailwindCSS](https://tailwindcss.com/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Installation
 
-## Deploy on Vercel
+Use the Npm package manager install command.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm install
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+
+## Author
+
+- Author - [Oussama Fajraoui]
+
+## How to use
+
+Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+
+```bash
+npx create-next-app --example with-tailwindcss with-tailwindcss-app
+```
+
+```bash
+yarn create next-app --example with-tailwindcss with-tailwindcss-app
+```
+
+```bash
+pnpm create next-app --example with-tailwindcss with-tailwindcss-app
+```
