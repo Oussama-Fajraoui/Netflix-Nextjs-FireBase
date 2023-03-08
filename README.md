@@ -73,7 +73,7 @@ To create an advanced movie app with ReactJS, NextJS, TypeScript, Firebase, Fire
 ## Links
 
 <hr>
-<b>Check The Live Website ➡️</b> <a href="https://netflix-nextjs-fire-base-2b8ugb0a1-oussama-fajraoui.vercel.app/login">Live Website</a>
+<b>Check The Live Website ➡️</b> <a href="https://netflix-nextjs-fire-base-ouzp4j5av-oussama-fajraoui.vercel.app/login">Live Website</a>
 <hr>
 
 ### Built with
